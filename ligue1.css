@@ -1,0 +1,6 @@
+section .container .col-sm-4{
+    background-color: black;
+}
+.col-sm-4{
+    font-size: 25px;
+}

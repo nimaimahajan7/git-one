@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fifa 20 Player Reviews</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <link href="writearev.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+        <header class = "container">
+      <div class = "row">
+        <a href = "index1.html"><h1 class = "col-sm-4">FutReviews</h1></a>  
+              <nav class = "col-sm-8 text-right">
+          <a href = "index1.html">Home</a>
+          <p></p>
+          <a href  ="newest.html">Newest</a>
+          <p></p>
+          <a href = "catalogue.html">Catalogue</a>
+        </nav>
+      </div>
+</header>
+<section class = "jumbotron">
+  <div class = "container">
+    <div class = "row text-center">
+      <h2>Write a Review</h2>
+      </div>
+    </div>
+</section>
+
+<section class="container">
+  <form action="review.html" method = "GET">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="pfname">First Name of Player</label>
+    <input type="text" id="pfname" name="pfirstname" placeholder="Player's name.." required>
+
+    <label for="plname">Last Name of Player</label>
+    <input type="text" id="plname" name="plastname" placeholder="Player's last name.." required>
+
+    <label for = "rating">Player's Rating</label>
+    <select id = "rating" name = "rating" value = "rating" required>
+      <option value = "0">0</option>
+      <option value = "1">1</option>
+      <option value = "2">2</option>
+      <option value = "3">3</option>
+      <option value = "4">4</option>
+      <option value = "5">5</option>
+      <option value = "6">6</option>
+      <option value = "7">7</option>
+      <option value = "8">8</option>
+      <option value = "9">9</option>
+      <option value = "10">10</option>
+    </select>
+
+    <label for="subject">Review</label>
+    <textarea id="review" name="review" placeholder="Write review.." style="height:200px" required></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</section>
+  </body>
